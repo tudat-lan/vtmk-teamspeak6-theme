@@ -18,7 +18,7 @@
   --ts-primary-accent-color:               #22d3ee !important;
   --tsv-content-branding-fancy-gradient-start: #22d3ee !important;
   --tsv-content-branding-fancy-gradient-end:   #0e7490 !important;
-  --font-color-button-white:               #ecfeff !important;
+  --font-color-button-white:               #42E801 !important;
 
   /* ── Surfaces: deep teal-black ── */
   --tsv-bg:                                #0a1418 !important;
@@ -75,9 +75,9 @@
   --tsv-content-branding-servers-bg-gradient-stop-3: #0e7490 !important;
 
   /* ── Typography ── */
-  --tsv-font-color:                        #d4e8ed !important;
+  --tsv-font-color:                        #5DF402 !important;
   --tsv-font-color-invert:                 #0a1418 !important;
-  --tsv-item-title-color:                  #d4e8ed !important;
+  --tsv-item-title-color:                  #42E801 !important;
   --tsv-font-subtitle-color:               #6b8a95 !important;
   --tsv-item-accessory-color:              #4d6873 !important;
   --tsv-contrast-font-color:               #0a1418 !important;
@@ -103,7 +103,7 @@
   --tsv-chat-self-bg-pending:              #22d3ee !important;
   --tsv-chat-self-bg-pending-transparent:  rgba(34, 211, 238, 0.3) !important;
   --tsv-chat-remote-font-color:            #d4e8ed !important;
-  --tsv-chat-self-font-color:              #ecfeff !important;
+  --tsv-chat-self-font-color:              #42E801 !important;
   --tsv-chat-deleted-bg:                   #2d1b1b !important;
   --tsv-chat-deleted-font-color:           #f87171 !important;
   --tsv-chat-link-color:                   #67e8f9 !important;
@@ -224,4 +224,18 @@
 *:focus-visible {
   outline: 2px solid #22d3ee !important;
   outline-offset: 1px;
+}
+.ts-header-logo, 
+[class*="logo"] {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  background-image: url('vtmk_logo.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  
+  background-position: 0px 60px !important; 
+  
+  width: 280px !important;
+  height: 160px !important;
 }
