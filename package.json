@@ -1,0 +1,29 @@
+{
+  "name": "TeamSpeak 6 // VTMK Themes",
+  "description": "VTMK dark theme for the TeamSpeak 6 client with deep teal surfaces and cyan accents.",
+  "version": "1.0.1",
+  "identifier": "hu.vtmk.themes",
+  "engines": {
+    "teamspeak": 1
+  },
+    "repository": {
+    "url": "https://github.com/tudat-lan/vtmk-teamspeak6-theme",
+    "directory": "hu.vtmk.themes",
+    "type": "git"
+  },
+  "image": "preview-vtmk.svg",
+  "license": "MIT",
+  "author": {
+    "name": "Geb"
+  },
+  "content": {
+    "themes": [
+      {
+        "name": "VTMK Theme",
+        "source": "vtmk.css",
+        "image": "preview-vtmk.svg",
+        "apiVersion": 1
+      }
+    ]
+  }
+}
